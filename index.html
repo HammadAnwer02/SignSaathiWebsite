@@ -1,88 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="76x76"
-          href="./assets/img/apple-icon.png"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
         <title>Sign Saathi</title>
-      </head>
-  <body >
-    <div class="flex flex-col pb-16 bg-white">
-        <div
-          class="flex gap-5 justify-between pt-2.5 pr-16 pb-4 pl-3 w-full text-white bg-cyan-700 max-md:flex-wrap max-md:pr-5 max-md:max-w-full"
-        >
-          <div class="flex gap-5 justify-between text-3xl">
-            <img
-              loading="lazy"
-              src="styles/images/LogoSignSaathi.png"
-              alt="LogoSignSaathi"
-              class="shrink-0 aspect-square w-[70px]"
-            />
-            <div class="flex-auto my-auto">Sign Saathi</div>
-          </div>
-          <div class="flex gap-5 justify-between my-auto text-2xl whitespace-nowrap">
-            <div>Services</div>
-            <div>About</div>
-            <div>Contact</div>
-          </div>
-        </div>
-        <div class="px-14 py-20 w-full bg-stone-100 max-md:px-5 max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
-              <div
-                class="flex flex-col mt-11 text-black max-md:mt-10 max-md:max-w-full"
-              >
-                <div class="text-7xl font-bold max-md:max-w-full max-md:text-4xl">
-                  Bridging the Communication Gap
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark sectionlightblue">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets\images\LogoSignSaathi.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                      Sign Saathi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item navitempadding"><a class="nav-link" href="#features">Services</a></li>
+                            <li class="nav-item navitempadding"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item navitempadding"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="mt-16 text-2xl max-md:mt-10 max-md:max-w-full">
-                  Sign Saathi is a revolutionary mobile application that provides a
-                  platform for sign language communication. Our AI and computer vision
-                  models enable seamless translation between text, audio, and sign
-                  language, and our learning center provides an enriching educational
-                  experience for users.
+            </nav>
+            <!-- Header-->
+            <header class="sectionoffwhite py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder large_header mb-5">Bridging Silence, Connecting Worlds</h1>
+                                <p class="lead fw-normal  mb-5">Sign Saathi is a revolutionary mobile application that provides a platform for sign language communication. Our AI and computer vision models enable seamless translation between text, audio, and sign language, and our learning center provides an enriching educational experience for users.</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                   
+                                    <a class="btn btn-outline-light btn-lg px-4 sectionlightblue wide-button" href="#!">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="assets/images/PeopleDoingSigns.png" alt="..." /></div>
+                    </div>
                 </div>
-                <div
-                  class="justify-center self-start px-14 py-6 mt-24 ml-2.5 text-2xl text-white whitespace-nowrap bg-cyan-700 rounded-2xl max-md:pr-6 max-md:pl-5 max-md:mt-10"
-                >
-                  Learn more
+            </header>
+            <!-- Features section-->
+            <!-- <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <h2 class="h5">Featured title</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                                    <h2 class="h5">Featured title</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Featured title</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Featured title</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full">
-              <img
-                loading="lazy"
-                src="styles/images/PeopleDoingSigns.png"
-                alt="PeopleDoingSigns"
-                class="self-stretch my-auto w-full aspect-square max-md:mt-10 max-md:max-w-full"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex gap-5 justify-between self-center px-5 mt-24 w-full text-2xl text-black max-w-[1127px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full"
-        >
-          <div class="flex-auto">Featured in</div>
-          <div class="flex-auto max-md:max-w-full">
-            All the news channels we have been in along with competitions
-          </div>
-        </div>
-      </div>
-      
-</body>
+            </section> -->
+            <!-- Testimonial section-->
+            <!-- <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="fw-bold">
+                                        Tom Ato
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        CEO, Pomodoro
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Blog preview section-->
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h2 class="fw-bolder mb-5">Our features</h2>
+                                <!-- <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                <div class="card-body p-4">
+                                    <!-- <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div> -->
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Sign Interpretation</h5></a>
+                                    <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                                <div class="card-body p-4">
+                                    
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Sign Generation</h5></a>
+                                    <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                                <div class="card-body p-4">
 
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Sign API</h5></a>
+                                    <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Call to action-->
+                    <aside class="sectionlightblue rounded-3 p-4 p-sm-5 mt-5" id="contact">
+                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                            <div class="mb-4 mb-xl-0">
+                                <div class="fs-3 fw-bold text-white">Subscribe to our Newsletter</div>
+                                <div class="text-white-50">Enter your email address to get the latest updates from our newsletter!</div>
+                            </div>
+                            <div class="ms-xl-4">
+                                <div class="input-group mb-2">
+                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                                </div>
+                                <!-- <div class="small text-white-50">We care about privacy, and will never share your data.</div> -->
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="sectionlightblue py-4 mt-auto align-items-center justify-content-between">
+            <div class="container px-5">
+                <div class="align-items-center">
+                   <div class="small m-0 text-white">Copyright &copy; Sign Saathi 2024</div></div>
+                    
+                        <!-- <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a> -->
+                    
+                
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
